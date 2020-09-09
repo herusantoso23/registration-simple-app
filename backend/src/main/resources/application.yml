@@ -20,3 +20,5 @@ spring:
   properties:
     hibernate:
       dialect: org.hibernate.dialect.PostgreSQLDialect
+allow:
+  origins: ${ORIGIN:http://localhost:3000,http://localhost:80}
