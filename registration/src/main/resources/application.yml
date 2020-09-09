@@ -1,0 +1,22 @@
+spring:
+  application:
+    name: registration-app-backend
+  jpa:
+    database: POSTGRESQL
+    hibernate:
+      ddl-auto: update
+      jdbc:
+        time_zone: GMT+7
+    properties:
+      hibernate:
+        jdbc:
+          lob:
+            non_contextual_creation: true
+  datasource:
+    platform: postgres
+    url: jdbc:postgresql://${POSTGRES_HOSTNAME:localhost}:${POSTGRES_PORT:5432}/${POSTGRES_DATABASE:registration}
+    username: ${POSTGRES_USERNAME:postgres}
+    password: ${POSTGRES_PASSWORD:password}
+  properties:
+    hibernate:
+      dialect: org.hibernate.dialect.PostgreSQLDialect
