@@ -27,6 +27,7 @@
       1. Using environment variable, example :
          - add environment variable ```POSTGRES_HOSTNAME=localhost``` (database host)
          - add environment variable ```POSTGRES_PORT=5432``` (database port)
+         - add environment variable ```POSTGRES_DATABASE=registration``` (database name)
          - add environment variable ```POSTGRES_USERNAME=postgres``` (database user)
          - add environment variable ```POSTGRES_PASSWORD=password``` (password of user)
          - add environment variable ```ORIGIN=http://localhost:3000,http://localhost:80``` (allow origins)     
