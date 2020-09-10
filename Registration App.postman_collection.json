@@ -1,0 +1,40 @@
+{
+	"info": {
+		"_postman_id": "948617a2-d45c-4d93-88b7-84f5ed79a2c8",
+		"name": "Registration App",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "User registration",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"mobile_number\":\"+6287760000000\",\n    \"email\":\"herusantoso008@gmail.com\",\n    \"first_name\":\"Heru\",\n    \"last_name\":\"Santoso\",\n    \"date_of_birth\":\"1994-08-23\",\n    \"gender\":\"MALE\"\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8080/api/v1/user",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"v1",
+						"user"
+					]
+				}
+			},
+			"response": []
+		}
+	],
+	"protocolProfileBehavior": {}
+}
