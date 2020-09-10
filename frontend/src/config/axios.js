@@ -2,7 +2,7 @@ import axios from 'axios';
 import ErrorHandler from '../commons/errorHandler';
 
 const instance = axios.create({
-    baseURL:"http://localhost:8080",
+    baseURL:"https://backend-registration.herokuapp.com",
 })
 
 instance.interceptors.request.use(function (config) {
