@@ -58,3 +58,5 @@ Result :
 6. Duplications : 0%
 7. Duplicate Block : 0
 
+To see live demo, please follow this <a href="https://frontend-registration.herokuapp.com">Simple Registration App</a>
+
